@@ -1,16 +1,18 @@
+import Gallery from "./components/Gallery";
+import { Profile } from "./components/Gallery";
+import MyDate from "./components/MyDate";
+import MyProfile from "./components/MyProfile";
+
 const App = () => {
   return (
-    <section>
-      <h1>Amazing Scientists</h1>
+    <>
+      <Gallery />
+      <h1 style={{ backgroundColor: "gray", color: "lightgreen" }}>Profile</h1>
       <Profile />
-      <Profile />
-      <Profile />
-    </section>
+      <MyDate />
+      <MyProfile />
+    </>
   );
 };
-
-function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
-}
 
 export default App;
