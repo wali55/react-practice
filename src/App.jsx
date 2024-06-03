@@ -2,6 +2,7 @@ import Gallery from "./components/Gallery";
 import { Profile } from "./components/Gallery";
 import MyDate from "./components/MyDate";
 import MyProfile from "./components/MyProfile";
+import PackingList from "./components/PackingList";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Profile />
       <MyDate />
       <MyProfile />
+      <PackingList />
     </>
   );
 };
