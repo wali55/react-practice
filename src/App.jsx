@@ -1,7 +1,9 @@
 import Gallery from "./components/Gallery";
 import { Profile } from "./components/Gallery";
+import List from "./components/List";
 import MyDate from "./components/MyDate";
 import MyProfile from "./components/MyProfile";
+import NewList from "./components/NewList";
 import PackingList from "./components/PackingList";
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
       <MyDate />
       <MyProfile />
       <PackingList />
+      <List />
+      <NewList />
     </>
   );
 };
