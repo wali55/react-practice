@@ -5,6 +5,8 @@ import MyDate from "./components/MyDate";
 import MyProfile from "./components/MyProfile";
 import NewList from "./components/NewList";
 import PackingList from "./components/PackingList";
+import Recipe from "./components/Recipe";
+import TeaGathering from "./components/TeaGathering";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <PackingList />
       <List />
       <NewList />
+      <Recipe />
+      <TeaGathering />
     </>
   );
 };
