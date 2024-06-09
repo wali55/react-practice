@@ -1,3 +1,4 @@
+import Click from "./components/Click";
 import Gallery from "./components/Gallery";
 import { Profile } from "./components/Gallery";
 import List from "./components/List";
@@ -21,6 +22,7 @@ const App = () => {
       <NewList />
       <Recipe />
       <TeaGathering />
+      <Click />
     </>
   );
 };
