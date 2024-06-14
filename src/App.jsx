@@ -6,8 +6,11 @@ import MyDate from "./components/MyDate";
 import MyProfile from "./components/MyProfile";
 import MyToolbar from "./components/MyToolbar";
 import NewList from "./components/NewList";
+import NewToolbar from "./components/NewToolbar";
 import PackingList from "./components/PackingList";
+import Propagation from "./components/Propagation";
 import Recipe from "./components/Recipe";
+import SignUp from "./components/SignUp";
 import TeaGathering from "./components/TeaGathering";
 import Toolbar from "./components/Toolbar";
 
@@ -27,6 +30,9 @@ const App = () => {
       <Click />
       <Toolbar />
       <MyToolbar />
+      <NewToolbar />
+      <Propagation />
+      <SignUp />
     </>
   );
 };
