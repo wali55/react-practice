@@ -1,4 +1,5 @@
 import Click from "./components/Click";
+import Counter from "./components/Counter";
 import Gallery from "./components/Gallery";
 import { Profile } from "./components/Gallery";
 import List from "./components/List";
@@ -33,6 +34,7 @@ const App = () => {
       <NewToolbar />
       <Propagation />
       <SignUp />
+      <Counter />
     </>
   );
 };
