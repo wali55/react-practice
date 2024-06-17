@@ -7,7 +7,7 @@ const Counter = () => {
     <div>
       <h1>{number}</h1>
       <Button
-        variant="contained"
+        variant="outlined"
         onClick={() => {
           setNumber((n) => n + 1);
           setNumber((n) => n + 1);

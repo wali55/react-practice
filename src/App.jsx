@@ -3,6 +3,7 @@ import Counter from "./components/Counter";
 import Gallery from "./components/Gallery";
 import { Profile } from "./components/Gallery";
 import List from "./components/List";
+import MyCounter from "./components/MyCounter";
 import MyDate from "./components/MyDate";
 import MyProfile from "./components/MyProfile";
 import MyToolbar from "./components/MyToolbar";
@@ -35,6 +36,7 @@ const App = () => {
       <Propagation />
       <SignUp />
       <Counter />
+      <MyCounter />
     </>
   );
 };
